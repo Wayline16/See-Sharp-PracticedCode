@@ -1,6 +1,7 @@
+///////////////////////////////Searching through an Array///////////////////////////////
 using System;
 
-namespace MyApplication
+namespace ArraySearch
 {
   class Program
   {
@@ -16,3 +17,10 @@ namespace MyApplication
     }
   }
 }
+
+///////////////////////////////Searching through a 2D Array///////////////////////////////
+
+
+
+
+
