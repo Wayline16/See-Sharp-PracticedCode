@@ -84,9 +84,45 @@ static int solve(int N, int[] workload)
         	a++;
         }
          return a;
-      
     }
 
+
+//////////////////////////Checking if zoo is similar to zzzoooooo///////////////////////////////////
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+
+    static void Main(string[] args)
+    {
+        string word = Console.ReadLine();
+
+        char[] charArr = word.ToCharArray();
+        char Zletter = 'z';
+        char Oletter = 'o';
+        int z = 0;
+        int o = 0;
+
+        foreach (char c in charArr){
+            if (c == Zletter ){
+                z++;
+            }
+            else if(c == Oletter){
+                o++;
+            }
+            else{Console.WriteLine("Invalid entry");}
+        }
+        if((z*2)==o){
+            Console.WriteLine("Yes");
+        }
+        else{Console.WriteLine("No");}
+
+      
+    }  
+  }
+}
 
 
 
